@@ -15,7 +15,7 @@ public class LoginTest {
         //https://www.saucedemo.com/
         @BeforeClass
         public void setProperty(){
-            WebDriverManager.chromedriver().browserVersion("121.0.6167.184").setup();
+            WebDriverManager.chromedriver().browserVersion("122.0.6261.69").setup();
             driver = new ChromeDriver();
             driver.manage().window().maximize();
         }
